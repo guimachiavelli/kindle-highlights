@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42CA6721B809D3B00D88431 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CA6711B809D3B00D88431 /* main.swift */; };
+		A4B0819F1B8533EF009A9A07 /* globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0819E1B8533EF009A9A07 /* globals.swift */; };
+		A4FBA4F01B67856A00DBA243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBA4EF1B67856A00DBA243 /* AppDelegate.swift */; };
+		A4FBA4F21B67856A00DBA243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBA4F11B67856A00DBA243 /* ViewController.swift */; };
+		A4FBA4F41B67856A00DBA243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FBA4F31B67856A00DBA243 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A42CA6711B809D3B00D88431 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A4B0819E1B8533EF009A9A07 /* globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globals.swift; sourceTree = "<group>"; };
+		A4FBA4EC1B67856A00DBA243 /* Kindle Highlights Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kindle Highlights Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FBA4EF1B67856A00DBA243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4FBA4F11B67856A00DBA243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4FBA4F31B67856A00DBA243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4FBA4F81B67856A00DBA243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FBA4E91B67856A00DBA243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4FBA4E31B67856A00DBA243 = {
+			isa = PBXGroup;
+			children = (
+				A4FBA4EE1B67856A00DBA243 /* Kindle Highlights Viewer */,
+				A4FBA4ED1B67856A00DBA243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FBA4ED1B67856A00DBA243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBA4EC1B67856A00DBA243 /* Kindle Highlights Viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FBA4EE1B67856A00DBA243 /* Kindle Highlights Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBA4EF1B67856A00DBA243 /* AppDelegate.swift */,
+				A4B0819E1B8533EF009A9A07 /* globals.swift */,
+				A42CA6711B809D3B00D88431 /* main.swift */,
+				A4FBA4F11B67856A00DBA243 /* ViewController.swift */,
+				A4FBA4F31B67856A00DBA243 /* Assets.xcassets */,
+				A4FBA4F81B67856A00DBA243 /* Info.plist */,
+			);
+			path = "Kindle Highlights Viewer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FBA4EB1B67856A00DBA243 /* Kindle Highlights Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FBA4FB1B67856A00DBA243 /* Build configuration list for PBXNativeTarget "Kindle Highlights Viewer" */;
+			buildPhases = (
+				A4FBA4E81B67856A00DBA243 /* Sources */,
+				A4FBA4E91B67856A00DBA243 /* Frameworks */,
+				A4FBA4EA1B67856A00DBA243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kindle Highlights Viewer";
+			productName = "Kindle Highlights Viewer";
+			productReference = A4FBA4EC1B67856A00DBA243 /* Kindle Highlights Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FBA4E41B67856A00DBA243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "guilherme machiavelli";
+				TargetAttributes = {
+					A4FBA4EB1B67856A00DBA243 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A4FBA4E71B67856A00DBA243 /* Build configuration list for PBXProject "Kindle Highlights Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FBA4E31B67856A00DBA243;
+			productRefGroup = A4FBA4ED1B67856A00DBA243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FBA4EB1B67856A00DBA243 /* Kindle Highlights Viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FBA4EA1B67856A00DBA243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FBA4F41B67856A00DBA243 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FBA4E81B67856A00DBA243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B0819F1B8533EF009A9A07 /* globals.swift in Sources */,
+				A4FBA4F21B67856A00DBA243 /* ViewController.swift in Sources */,
+				A4FBA4F01B67856A00DBA243 /* AppDelegate.swift in Sources */,
+				A42CA6721B809D3B00D88431 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4FBA4F91B67856A00DBA243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4FBA4FA1B67856A00DBA243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A4FBA4FC1B67856A00DBA243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Kindle Highlights Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guimachiavelli.Kindle-Highlights-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4FBA4FD1B67856A00DBA243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Kindle Highlights Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guimachiavelli.Kindle-Highlights-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FBA4E71B67856A00DBA243 /* Build configuration list for PBXProject "Kindle Highlights Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FBA4F91B67856A00DBA243 /* Debug */,
+				A4FBA4FA1B67856A00DBA243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FBA4FB1B67856A00DBA243 /* Build configuration list for PBXNativeTarget "Kindle Highlights Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FBA4FC1B67856A00DBA243 /* Debug */,
+				A4FBA4FD1B67856A00DBA243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FBA4E41B67856A00DBA243 /* Project object */;
+}

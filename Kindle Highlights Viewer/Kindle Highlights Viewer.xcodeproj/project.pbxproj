@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A410C6041B9CD8E30010B9D6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A410C6031B9CD8E30010B9D6 /* RootViewController.swift */; };
 		A42CA6721B809D3B00D88431 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CA6711B809D3B00D88431 /* main.swift */; };
+		A49AF76A1BAF4B5500836CF2 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49AF7691BAF4B5500836CF2 /* QuotesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A49BD81F1BB05F4E0056C6F5 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49BD81E1BB05F4E0056C6F5 /* BookViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A4B0819F1B8533EF009A9A07 /* globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0819E1B8533EF009A9A07 /* globals.swift */; };
 		A4FBA4F01B67856A00DBA243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBA4EF1B67856A00DBA243 /* AppDelegate.swift */; };
-		A4FBA4F21B67856A00DBA243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBA4F11B67856A00DBA243 /* ViewController.swift */; };
 		A4FBA4F41B67856A00DBA243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FBA4F31B67856A00DBA243 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A410C6031B9CD8E30010B9D6 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		A42CA6711B809D3B00D88431 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A49AF7691BAF4B5500836CF2 /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		A49BD81E1BB05F4E0056C6F5 /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		A4B0819E1B8533EF009A9A07 /* globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globals.swift; sourceTree = "<group>"; };
 		A4FBA4EC1B67856A00DBA243 /* Kindle Highlights Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kindle Highlights Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FBA4EF1B67856A00DBA243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4FBA4F11B67856A00DBA243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4FBA4F31B67856A00DBA243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4FBA4F81B67856A00DBA243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +61,9 @@
 				A4FBA4EF1B67856A00DBA243 /* AppDelegate.swift */,
 				A4B0819E1B8533EF009A9A07 /* globals.swift */,
 				A42CA6711B809D3B00D88431 /* main.swift */,
-				A4FBA4F11B67856A00DBA243 /* ViewController.swift */,
+				A410C6031B9CD8E30010B9D6 /* RootViewController.swift */,
+				A49BD81E1BB05F4E0056C6F5 /* BookViewController.swift */,
+				A49AF7691BAF4B5500836CF2 /* QuotesViewController.swift */,
 				A4FBA4F31B67856A00DBA243 /* Assets.xcassets */,
 				A4FBA4F81B67856A00DBA243 /* Info.plist */,
 			);
@@ -132,8 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A410C6041B9CD8E30010B9D6 /* RootViewController.swift in Sources */,
+				A49AF76A1BAF4B5500836CF2 /* QuotesViewController.swift in Sources */,
 				A4B0819F1B8533EF009A9A07 /* globals.swift in Sources */,
-				A4FBA4F21B67856A00DBA243 /* ViewController.swift in Sources */,
+				A49BD81F1BB05F4E0056C6F5 /* BookViewController.swift in Sources */,
 				A4FBA4F01B67856A00DBA243 /* AppDelegate.swift in Sources */,
 				A42CA6721B809D3B00D88431 /* main.swift in Sources */,
 			);

@@ -56,10 +56,10 @@ class KHViewController: NSWindowController {
             item: books.viewController.view,
             attribute: NSLayoutAttribute.Width,
             relatedBy: NSLayoutRelation.GreaterThanOrEqual,
-            toItem: self.booksViewController?.view,
+            toItem: booksViewController?.view,
             attribute: NSLayoutAttribute.Width,
-            multiplier: 0.1,
-            constant: 0
+            multiplier: 0,
+            constant: 100
         ))
         
         booksViewController?.view.addConstraint(NSLayoutConstraint(
@@ -68,17 +68,17 @@ class KHViewController: NSWindowController {
             relatedBy: NSLayoutRelation.GreaterThanOrEqual,
             toItem: self.booksViewController?.view,
             attribute: NSLayoutAttribute.Width,
-            multiplier: 1,
+            multiplier: 0.75,
             constant: 0
         ))
         
         self.booksViewController?.insertSplitViewItem(books, atIndex: 0)
         self.booksViewController?.insertSplitViewItem(quotes, atIndex: 1)
         
-//        booksViewController?.splitView.adjustSubviews()
+        booksViewController?.splitView.adjustSubviews()
+        booksViewController?.splitView.setPosition(0, ofDividerAtIndex: 0)
         self.window!.contentView = booksViewController?.splitView
         
-        print(booksViewController?.view)
 
     }
 

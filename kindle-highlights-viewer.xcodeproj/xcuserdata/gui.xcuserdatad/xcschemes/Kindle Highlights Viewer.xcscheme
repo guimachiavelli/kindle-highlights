@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A4FBA4EB1B67856A00DBA243"
-               BuildableName = "Kindle Highlights Viewer.app"
-               BlueprintName = "Kindle Highlights Viewer"
-               ReferencedContainer = "container:Kindle Highlights Viewer.xcodeproj">
+               BuildableName = "kindle-highlights-viewer.app"
+               BlueprintName = "kindle-highlights-viewer"
+               ReferencedContainer = "container:kindle-highlights-viewer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4FBA4EB1B67856A00DBA243"
-            BuildableName = "Kindle Highlights Viewer.app"
-            BlueprintName = "Kindle Highlights Viewer"
-            ReferencedContainer = "container:Kindle Highlights Viewer.xcodeproj">
+            BuildableName = "kindle-highlights-viewer.app"
+            BlueprintName = "kindle-highlights-viewer"
+            ReferencedContainer = "container:kindle-highlights-viewer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4FBA4EB1B67856A00DBA243"
-            BuildableName = "Kindle Highlights Viewer.app"
-            BlueprintName = "Kindle Highlights Viewer"
-            ReferencedContainer = "container:Kindle Highlights Viewer.xcodeproj">
+            BuildableName = "kindle-highlights-viewer.app"
+            BlueprintName = "kindle-highlights-viewer"
+            ReferencedContainer = "container:kindle-highlights-viewer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4FBA4EB1B67856A00DBA243"
-            BuildableName = "Kindle Highlights Viewer.app"
-            BlueprintName = "Kindle Highlights Viewer"
-            ReferencedContainer = "container:Kindle Highlights Viewer.xcodeproj">
+            BuildableName = "kindle-highlights-viewer.app"
+            BlueprintName = "kindle-highlights-viewer"
+            ReferencedContainer = "container:kindle-highlights-viewer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

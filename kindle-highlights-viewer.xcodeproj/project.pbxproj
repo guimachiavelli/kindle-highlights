@@ -42,7 +42,7 @@
 		A4FBA4E31B67856A00DBA243 = {
 			isa = PBXGroup;
 			children = (
-				A4FBA4EE1B67856A00DBA243 /* Kindle Highlights Viewer */,
+				A4FBA4EE1B67856A00DBA243 /* kindle-highlights-viewer */,
 				A4FBA4ED1B67856A00DBA243 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4FBA4EE1B67856A00DBA243 /* Kindle Highlights Viewer */ = {
+		A4FBA4EE1B67856A00DBA243 /* kindle-highlights-viewer */ = {
 			isa = PBXGroup;
 			children = (
 				A4FBA4EF1B67856A00DBA243 /* AppDelegate.swift */,
@@ -67,15 +67,16 @@
 				A4FBA4F31B67856A00DBA243 /* Assets.xcassets */,
 				A4FBA4F81B67856A00DBA243 /* Info.plist */,
 			);
+			name = "kindle-highlights-viewer";
 			path = "Kindle Highlights Viewer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4FBA4EB1B67856A00DBA243 /* Kindle Highlights Viewer */ = {
+		A4FBA4EB1B67856A00DBA243 /* kindle-highlights-viewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4FBA4FB1B67856A00DBA243 /* Build configuration list for PBXNativeTarget "Kindle Highlights Viewer" */;
+			buildConfigurationList = A4FBA4FB1B67856A00DBA243 /* Build configuration list for PBXNativeTarget "kindle-highlights-viewer" */;
 			buildPhases = (
 				A4FBA4E81B67856A00DBA243 /* Sources */,
 				A4FBA4E91B67856A00DBA243 /* Frameworks */,
@@ -85,7 +86,7 @@
 			);
 			dependencies = (
 			);
-			name = "Kindle Highlights Viewer";
+			name = "kindle-highlights-viewer";
 			productName = "Kindle Highlights Viewer";
 			productReference = A4FBA4EC1B67856A00DBA243 /* Kindle Highlights Viewer.app */;
 			productType = "com.apple.product-type.application";
@@ -104,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A4FBA4E71B67856A00DBA243 /* Build configuration list for PBXProject "Kindle Highlights Viewer" */;
+			buildConfigurationList = A4FBA4E71B67856A00DBA243 /* Build configuration list for PBXProject "kindle-highlights-viewer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4FBA4EB1B67856A00DBA243 /* Kindle Highlights Viewer */,
+				A4FBA4EB1B67856A00DBA243 /* kindle-highlights-viewer */,
 			);
 		};
 /* End PBXProject section */
@@ -238,7 +239,7 @@
 				INFOPLIST_FILE = "Kindle Highlights Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "guimachiavelli.Kindle-Highlights-Viewer";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Kindle Highlights Viewer";
 			};
 			name = Debug;
 		};
@@ -250,14 +251,14 @@
 				INFOPLIST_FILE = "Kindle Highlights Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "guimachiavelli.Kindle-Highlights-Viewer";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Kindle Highlights Viewer";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4FBA4E71B67856A00DBA243 /* Build configuration list for PBXProject "Kindle Highlights Viewer" */ = {
+		A4FBA4E71B67856A00DBA243 /* Build configuration list for PBXProject "kindle-highlights-viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4FBA4F91B67856A00DBA243 /* Debug */,
@@ -266,7 +267,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4FBA4FB1B67856A00DBA243 /* Build configuration list for PBXNativeTarget "Kindle Highlights Viewer" */ = {
+		A4FBA4FB1B67856A00DBA243 /* Build configuration list for PBXNativeTarget "kindle-highlights-viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4FBA4FC1B67856A00DBA243 /* Debug */,

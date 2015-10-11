@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Kindle Highlights Viewer.xcodeproj">
+      location = "self:/Users/gui/projects/tools/kindle-highlights/kindle-highlights-viewer.xcodeproj">
    </FileRef>
 </Workspace>

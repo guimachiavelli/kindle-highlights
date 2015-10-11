@@ -8,9 +8,9 @@
 
 import Cocoa
 
-class QuotesViewController : NSViewController {
+class QuoteViewController : NSViewController {
     override func viewDidLoad() {
-
+        
     }
     
     override func loadView() {
@@ -18,10 +18,10 @@ class QuotesViewController : NSViewController {
         let button = NSButton(frame: CGRect(origin: CGPoint(x: 10, y: 10),
             size: CGSize(width: 150, height: 30)))
         
-        button.title = "Quotes"
+        button.title = "Quote"
         aView.wantsLayer = true
-        aView.layer!.backgroundColor = CGColorCreateGenericRGB(200.0, 0.0, 0.0, 0.5)
-
+        aView.layer!.backgroundColor = CGColorCreateGenericRGB(200.0, 200.0, 0.0, 0.5)
+        
         aView.addSubview(button)
         self.view = aView
     }

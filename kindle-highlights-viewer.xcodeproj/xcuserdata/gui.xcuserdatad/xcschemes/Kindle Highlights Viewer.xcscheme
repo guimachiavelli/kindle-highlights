@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A4FBA4EB1B67856A00DBA243"
-               BuildableName = "kindle-highlights-viewer.app"
+               BuildableName = "Kindle Highlights Viewer.app"
                BlueprintName = "kindle-highlights-viewer"
                ReferencedContainer = "container:kindle-highlights-viewer.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4FBA4EB1B67856A00DBA243"
-            BuildableName = "kindle-highlights-viewer.app"
+            BuildableName = "Kindle Highlights Viewer.app"
             BlueprintName = "kindle-highlights-viewer"
             ReferencedContainer = "container:kindle-highlights-viewer.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4FBA4EB1B67856A00DBA243"
-            BuildableName = "kindle-highlights-viewer.app"
+            BuildableName = "Kindle Highlights Viewer.app"
             BlueprintName = "kindle-highlights-viewer"
             ReferencedContainer = "container:kindle-highlights-viewer.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4FBA4EB1B67856A00DBA243"
-            BuildableName = "kindle-highlights-viewer.app"
+            BuildableName = "Kindle Highlights Viewer.app"
             BlueprintName = "kindle-highlights-viewer"
             ReferencedContainer = "container:kindle-highlights-viewer.xcodeproj">
          </BuildableReference>

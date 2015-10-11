@@ -8,43 +8,52 @@
 
 import Cocoa
 
-class BookViewController : NSViewController {
+class BookViewController : NSViewController, NSTableViewDelegate, NSTableViewDataSource {
     override func viewDidLoad() {
         
     }
     
     override func loadView() {
-        let view = NSView(frame: NSRect(x:300, y:0, width:100, height:100))
-        view.wantsLayer = true
-        view.layer!.backgroundColor = CGColorCreateGenericRGB(0.0, 0.0, 255.0, 1)
+        let view = NSScrollView(frame: NSRect(x:300, y:0, width:100, height:100))
         view.translatesAutoresizingMaskIntoConstraints = false;
         
         self.view = view
-
-        let button = NSButton(frame: CGRect(origin: CGPoint(x: 0, y: 0),
-            size: CGSize(width: 150, height: 30)))
-        button.translatesAutoresizingMaskIntoConstraints = false;
-        button.title = "Book"
         
-        self.view.addSubview(button)
+        let table = self.table()
         
-        self.view.addConstraint(NSLayoutConstraint(
-            item: button,
-            attribute: NSLayoutAttribute.CenterX,
-            relatedBy: NSLayoutRelation.Equal,
-            toItem: self.view,
-            attribute: NSLayoutAttribute.CenterX,
-            multiplier: 1,
-            constant: 0))
-
-        self.view.addConstraint(NSLayoutConstraint(
-            item: button,
-            attribute: NSLayoutAttribute.Bottom,
-            relatedBy: NSLayoutRelation.Equal,
-            toItem: self.view,
-            attribute: NSLayoutAttribute.Bottom,
-            multiplier: 1,
-            constant: CGFloat(appPadding * -1)))
-
+        view.documentView = table
+    }
+    
+    func table() -> NSTableView {
+        let table = NSTableView(frame: NSRect(x:0, y:0, width: 100, height: 200))
+        let column = NSTableColumn(identifier: "test")
+        column.width = 100
+        column.title = "Book name"
+        
+        table.addTableColumn(column)
+        table.setDelegate(self)
+        table.setDataSource(self)
+        
+        return table
+    }
+    
+    func numberOfRowsInTableView(tableView: NSTableView) -> Int {
+        return 10
+    }
+    
+    func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView? {
+        let identifier = "test\(row)"
+        if let result = tableView.makeViewWithIdentifier(identifier, owner: self) {
+            return result
+        } else {
+            let result = NSTextView()
+            result.identifier = identifier
+            result.string = "book \(row+1)"
+            result.editable = false
+            result.selectable = false
+            result.drawsBackground = false
+            return result
+        }
+        
     }
 }

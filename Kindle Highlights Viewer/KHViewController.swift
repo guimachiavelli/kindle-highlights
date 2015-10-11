@@ -43,9 +43,11 @@ class KHViewController: NSWindowController {
 
         let books = NSSplitViewItem()
         let quotes = NSSplitViewItem()
+        let quote = NSSplitViewItem()
 
         books.viewController = BookViewController()
         quotes.viewController = QuotesViewController()
+        quote.viewController = QuoteViewController()
 
         
         self.booksViewController?.splitView = NSSplitView()
@@ -56,24 +58,35 @@ class KHViewController: NSWindowController {
             item: books.viewController.view,
             attribute: NSLayoutAttribute.Width,
             relatedBy: NSLayoutRelation.GreaterThanOrEqual,
-            toItem: booksViewController?.view,
-            attribute: NSLayoutAttribute.Width,
-            multiplier: 0,
-            constant: 100
+            toItem: nil,
+            attribute: NSLayoutAttribute.NotAnAttribute,
+            multiplier: 0.25,
+            constant: 200
         ))
         
         booksViewController?.view.addConstraint(NSLayoutConstraint(
             item: quotes.viewController.view,
             attribute: NSLayoutAttribute.Width,
             relatedBy: NSLayoutRelation.GreaterThanOrEqual,
+            toItem: nil,
+            attribute: NSLayoutAttribute.NotAnAttribute,
+            multiplier: 0.25,
+            constant: 200
+        ))
+        
+        booksViewController?.view.addConstraint(NSLayoutConstraint(
+            item: quote.viewController.view,
+            attribute: NSLayoutAttribute.Width,
+            relatedBy: NSLayoutRelation.GreaterThanOrEqual,
             toItem: self.booksViewController?.view,
             attribute: NSLayoutAttribute.Width,
-            multiplier: 0.75,
+            multiplier: 1,
             constant: 0
         ))
         
         self.booksViewController?.insertSplitViewItem(books, atIndex: 0)
         self.booksViewController?.insertSplitViewItem(quotes, atIndex: 1)
+        self.booksViewController?.insertSplitViewItem(quote, atIndex: 2)
         
         booksViewController?.splitView.adjustSubviews()
         booksViewController?.splitView.setPosition(0, ofDividerAtIndex: 0)

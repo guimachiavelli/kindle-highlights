@@ -7,5 +7,5 @@
 //
 
 let appTitle = "Kindle Highlights Viewer"
-let appDimensions: [String: Int] = [ "width": 500, "height": 400 ]
+let appDimensions: [String: Int] = [ "width": 750, "height": 400 ]
 let appPadding = 10.0

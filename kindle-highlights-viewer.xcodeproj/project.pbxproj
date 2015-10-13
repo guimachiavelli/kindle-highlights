@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A410C6041B9CD8E30010B9D6 /* KHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A410C6031B9CD8E30010B9D6 /* KHViewController.swift */; };
 		A42CA6721B809D3B00D88431 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CA6711B809D3B00D88431 /* main.swift */; };
+		A46EAA621BCD4C3F0039D931 /* BookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46EAA611BCD4C3F0039D931 /* BookButton.swift */; settings = {ASSET_TAGS = (); }; };
 		A49AF76A1BAF4B5500836CF2 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49AF7691BAF4B5500836CF2 /* QuotesViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A49BD81F1BB05F4E0056C6F5 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49BD81E1BB05F4E0056C6F5 /* BookViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A4B0819F1B8533EF009A9A07 /* globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0819E1B8533EF009A9A07 /* globals.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		A410C6031B9CD8E30010B9D6 /* KHViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHViewController.swift; sourceTree = "<group>"; };
 		A42CA6711B809D3B00D88431 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A46EAA611BCD4C3F0039D931 /* BookButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookButton.swift; sourceTree = "<group>"; };
 		A49AF7691BAF4B5500836CF2 /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		A49BD81E1BB05F4E0056C6F5 /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		A4B0819E1B8533EF009A9A07 /* globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globals.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				A49BD81E1BB05F4E0056C6F5 /* BookViewController.swift */,
 				A49AF7691BAF4B5500836CF2 /* QuotesViewController.swift */,
 				A4E25AA61BCACAE600D878F3 /* QuoteViewController.swift */,
+				A46EAA611BCD4C3F0039D931 /* BookButton.swift */,
 				A4FBA4F31B67856A00DBA243 /* Assets.xcassets */,
 				A4FBA4F81B67856A00DBA243 /* Info.plist */,
 			);
@@ -144,6 +147,7 @@
 			files = (
 				A410C6041B9CD8E30010B9D6 /* KHViewController.swift in Sources */,
 				A49AF76A1BAF4B5500836CF2 /* QuotesViewController.swift in Sources */,
+				A46EAA621BCD4C3F0039D931 /* BookButton.swift in Sources */,
 				A4B0819F1B8533EF009A9A07 /* globals.swift in Sources */,
 				A49BD81F1BB05F4E0056C6F5 /* BookViewController.swift in Sources */,
 				A4FBA4F01B67856A00DBA243 /* AppDelegate.swift in Sources */,

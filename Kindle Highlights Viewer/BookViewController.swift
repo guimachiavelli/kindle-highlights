@@ -33,6 +33,7 @@ class BookViewController : NSViewController, NSTableViewDelegate, NSTableViewDat
         table.addTableColumn(column)
         table.setDelegate(self)
         table.setDataSource(self)
+        table.selectionHighlightStyle = NSTableViewSelectionHighlightStyle.None
         
         return table
     }
@@ -42,18 +43,20 @@ class BookViewController : NSViewController, NSTableViewDelegate, NSTableViewDat
     }
     
     func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView? {
-        let identifier = "test\(row)"
+        let identifier = "test"
+
         if let result = tableView.makeViewWithIdentifier(identifier, owner: self) {
             return result
         } else {
-            let result = NSTextView()
+            let result = BookButton(frame: NSRect(x:0, y:0, width: 100, height: 50), bookId: "book-\(row)")
             result.identifier = identifier
-            result.string = "book \(row+1)"
-            result.editable = false
-            result.selectable = false
-            result.drawsBackground = false
+            result.title = "book \(row+1)"
+            result.bezelStyle = NSBezelStyle.ThickerSquareBezelStyle
+            result.bordered = false
+            result.alignment = NSTextAlignment.Left
+
             return result
         }
-        
     }
+
 }
